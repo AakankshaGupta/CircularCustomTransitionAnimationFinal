@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09523E5A1CAA5784005BBFC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09523E591CAA5784005BBFC6 /* AppDelegate.swift */; };
+		09523E5C1CAA5784005BBFC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09523E5B1CAA5784005BBFC6 /* ViewController.swift */; };
+		09523E5F1CAA5784005BBFC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09523E5D1CAA5784005BBFC6 /* Main.storyboard */; };
+		09523E621CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09523E601CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinal.xcdatamodeld */; };
+		09523E641CAA5784005BBFC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09523E631CAA5784005BBFC6 /* Assets.xcassets */; };
+		09523E671CAA5784005BBFC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09523E651CAA5784005BBFC6 /* LaunchScreen.storyboard */; };
+		09523E721CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09523E711CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinalTests.swift */; };
+		09523E7D1CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09523E7C1CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09523E6E1CAA5784005BBFC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09523E4E1CAA5784005BBFC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09523E551CAA5784005BBFC6;
+			remoteInfo = CircularCustomTransitionAnimationFinal;
+		};
+		09523E791CAA5784005BBFC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09523E4E1CAA5784005BBFC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09523E551CAA5784005BBFC6;
+			remoteInfo = CircularCustomTransitionAnimationFinal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09523E561CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircularCustomTransitionAnimationFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09523E591CAA5784005BBFC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09523E5B1CAA5784005BBFC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09523E5E1CAA5784005BBFC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09523E611CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CircularCustomTransitionAnimationFinal.xcdatamodel; sourceTree = "<group>"; };
+		09523E631CAA5784005BBFC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09523E661CAA5784005BBFC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09523E681CAA5784005BBFC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09523E6D1CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircularCustomTransitionAnimationFinalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09523E711CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularCustomTransitionAnimationFinalTests.swift; sourceTree = "<group>"; };
+		09523E731CAA5784005BBFC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09523E781CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircularCustomTransitionAnimationFinalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09523E7C1CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularCustomTransitionAnimationFinalUITests.swift; sourceTree = "<group>"; };
+		09523E7E1CAA5784005BBFC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09523E531CAA5784005BBFC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09523E6A1CAA5784005BBFC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09523E751CAA5784005BBFC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09523E4D1CAA5784005BBFC6 = {
+			isa = PBXGroup;
+			children = (
+				09523E581CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinal */,
+				09523E701CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinalTests */,
+				09523E7B1CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinalUITests */,
+				09523E571CAA5784005BBFC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09523E571CAA5784005BBFC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09523E561CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinal.app */,
+				09523E6D1CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinalTests.xctest */,
+				09523E781CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09523E581CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinal */ = {
+			isa = PBXGroup;
+			children = (
+				09523E591CAA5784005BBFC6 /* AppDelegate.swift */,
+				09523E5B1CAA5784005BBFC6 /* ViewController.swift */,
+				09523E5D1CAA5784005BBFC6 /* Main.storyboard */,
+				09523E631CAA5784005BBFC6 /* Assets.xcassets */,
+				09523E651CAA5784005BBFC6 /* LaunchScreen.storyboard */,
+				09523E681CAA5784005BBFC6 /* Info.plist */,
+				09523E601CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinal.xcdatamodeld */,
+			);
+			path = CircularCustomTransitionAnimationFinal;
+			sourceTree = "<group>";
+		};
+		09523E701CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinalTests */ = {
+			isa = PBXGroup;
+			children = (
+				09523E711CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinalTests.swift */,
+				09523E731CAA5784005BBFC6 /* Info.plist */,
+			);
+			path = CircularCustomTransitionAnimationFinalTests;
+			sourceTree = "<group>";
+		};
+		09523E7B1CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				09523E7C1CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinalUITests.swift */,
+				09523E7E1CAA5784005BBFC6 /* Info.plist */,
+			);
+			path = CircularCustomTransitionAnimationFinalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09523E551CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09523E811CAA5784005BBFC6 /* Build configuration list for PBXNativeTarget "CircularCustomTransitionAnimationFinal" */;
+			buildPhases = (
+				09523E521CAA5784005BBFC6 /* Sources */,
+				09523E531CAA5784005BBFC6 /* Frameworks */,
+				09523E541CAA5784005BBFC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircularCustomTransitionAnimationFinal;
+			productName = CircularCustomTransitionAnimationFinal;
+			productReference = 09523E561CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09523E6C1CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09523E841CAA5784005BBFC6 /* Build configuration list for PBXNativeTarget "CircularCustomTransitionAnimationFinalTests" */;
+			buildPhases = (
+				09523E691CAA5784005BBFC6 /* Sources */,
+				09523E6A1CAA5784005BBFC6 /* Frameworks */,
+				09523E6B1CAA5784005BBFC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09523E6F1CAA5784005BBFC6 /* PBXTargetDependency */,
+			);
+			name = CircularCustomTransitionAnimationFinalTests;
+			productName = CircularCustomTransitionAnimationFinalTests;
+			productReference = 09523E6D1CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09523E771CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09523E871CAA5784005BBFC6 /* Build configuration list for PBXNativeTarget "CircularCustomTransitionAnimationFinalUITests" */;
+			buildPhases = (
+				09523E741CAA5784005BBFC6 /* Sources */,
+				09523E751CAA5784005BBFC6 /* Frameworks */,
+				09523E761CAA5784005BBFC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09523E7A1CAA5784005BBFC6 /* PBXTargetDependency */,
+			);
+			name = CircularCustomTransitionAnimationFinalUITests;
+			productName = CircularCustomTransitionAnimationFinalUITests;
+			productReference = 09523E781CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09523E4E1CAA5784005BBFC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = cbluser113;
+				TargetAttributes = {
+					09523E551CAA5784005BBFC6 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					09523E6C1CAA5784005BBFC6 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 09523E551CAA5784005BBFC6;
+					};
+					09523E771CAA5784005BBFC6 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 09523E551CAA5784005BBFC6;
+					};
+				};
+			};
+			buildConfigurationList = 09523E511CAA5784005BBFC6 /* Build configuration list for PBXProject "CircularCustomTransitionAnimationFinal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09523E4D1CAA5784005BBFC6;
+			productRefGroup = 09523E571CAA5784005BBFC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09523E551CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinal */,
+				09523E6C1CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinalTests */,
+				09523E771CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09523E541CAA5784005BBFC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09523E671CAA5784005BBFC6 /* LaunchScreen.storyboard in Resources */,
+				09523E641CAA5784005BBFC6 /* Assets.xcassets in Resources */,
+				09523E5F1CAA5784005BBFC6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09523E6B1CAA5784005BBFC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09523E761CAA5784005BBFC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09523E521CAA5784005BBFC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09523E5C1CAA5784005BBFC6 /* ViewController.swift in Sources */,
+				09523E5A1CAA5784005BBFC6 /* AppDelegate.swift in Sources */,
+				09523E621CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinal.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09523E691CAA5784005BBFC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09523E721CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09523E741CAA5784005BBFC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09523E7D1CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09523E6F1CAA5784005BBFC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09523E551CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinal */;
+			targetProxy = 09523E6E1CAA5784005BBFC6 /* PBXContainerItemProxy */;
+		};
+		09523E7A1CAA5784005BBFC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09523E551CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinal */;
+			targetProxy = 09523E791CAA5784005BBFC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09523E5D1CAA5784005BBFC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09523E5E1CAA5784005BBFC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09523E651CAA5784005BBFC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09523E661CAA5784005BBFC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09523E7F1CAA5784005BBFC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09523E801CAA5784005BBFC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09523E821CAA5784005BBFC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CircularCustomTransitionAnimationFinal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CodeBrewLabs.CircularCustomTransitionAnimationFinal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		09523E831CAA5784005BBFC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CircularCustomTransitionAnimationFinal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CodeBrewLabs.CircularCustomTransitionAnimationFinal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		09523E851CAA5784005BBFC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CircularCustomTransitionAnimationFinalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CodeBrewLabs.CircularCustomTransitionAnimationFinalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircularCustomTransitionAnimationFinal.app/CircularCustomTransitionAnimationFinal";
+			};
+			name = Debug;
+		};
+		09523E861CAA5784005BBFC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CircularCustomTransitionAnimationFinalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CodeBrewLabs.CircularCustomTransitionAnimationFinalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircularCustomTransitionAnimationFinal.app/CircularCustomTransitionAnimationFinal";
+			};
+			name = Release;
+		};
+		09523E881CAA5784005BBFC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CircularCustomTransitionAnimationFinalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CodeBrewLabs.CircularCustomTransitionAnimationFinalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CircularCustomTransitionAnimationFinal;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		09523E891CAA5784005BBFC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CircularCustomTransitionAnimationFinalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CodeBrewLabs.CircularCustomTransitionAnimationFinalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CircularCustomTransitionAnimationFinal;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09523E511CAA5784005BBFC6 /* Build configuration list for PBXProject "CircularCustomTransitionAnimationFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09523E7F1CAA5784005BBFC6 /* Debug */,
+				09523E801CAA5784005BBFC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09523E811CAA5784005BBFC6 /* Build configuration list for PBXNativeTarget "CircularCustomTransitionAnimationFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09523E821CAA5784005BBFC6 /* Debug */,
+				09523E831CAA5784005BBFC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		09523E841CAA5784005BBFC6 /* Build configuration list for PBXNativeTarget "CircularCustomTransitionAnimationFinalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09523E851CAA5784005BBFC6 /* Debug */,
+				09523E861CAA5784005BBFC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		09523E871CAA5784005BBFC6 /* Build configuration list for PBXNativeTarget "CircularCustomTransitionAnimationFinalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09523E881CAA5784005BBFC6 /* Debug */,
+				09523E891CAA5784005BBFC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		09523E601CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				09523E611CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinal.xcdatamodel */,
+			);
+			currentVersion = 09523E611CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinal.xcdatamodel */;
+			path = CircularCustomTransitionAnimationFinal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 09523E4E1CAA5784005BBFC6 /* Project object */;
+}
