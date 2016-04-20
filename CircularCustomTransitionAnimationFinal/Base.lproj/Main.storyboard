@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1713" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="RMb-vD-FsH">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="CircularCustomTransitionAnimationFinal" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,94 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ybk-Xk-IP2">
+                                <rect key="frame" x="20" y="28" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Eew-lV-tHS"/>
+                                    <constraint firstAttribute="width" constant="50" id="X4w-qr-Dgj"/>
+                                </constraints>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="animationStart:" destination="BYZ-38-t0r" eventType="touchUpInside" id="E69-JP-rzA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1139470254" green="0.87904428729999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ybk-Xk-IP2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" symbolic="YES" id="VFD-PT-Wph"/>
+                            <constraint firstItem="Ybk-Xk-IP2" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="Xf6-zK-KIk"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="0MO-IX-ez5"/>
+                    <connections>
+                        <outlet property="animateBtn" destination="Ybk-Xk-IP2" id="NNn-C8-uZj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="3952" y="268"/>
+        </scene>
+        <!--Next View Controller-->
+        <scene sceneID="NxZ-1I-rBS">
+            <objects>
+                <viewController storyboardIdentifier="NextViewController" id="K1n-P5-SFg" customClass="NextViewController" customModule="CircularCustomTransitionAnimationFinal" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Mjv-pz-n5b"/>
+                        <viewControllerLayoutGuide type="bottom" id="spS-rn-oDT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CCf-qE-swo">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L0F-j4-hbb">
+                                <rect key="frame" x="530" y="542" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="Ru2-NG-EhS"/>
+                                    <constraint firstAttribute="height" constant="50" id="hVq-aP-sD1"/>
+                                </constraints>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backBtnAction:" destination="K1n-P5-SFg" eventType="touchUpInside" id="3WD-ui-m9h"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.2045441875" blue="0.15063264500000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="L0F-j4-hbb" secondAttribute="trailing" constant="20" symbolic="YES" id="Sjr-uQ-fkD"/>
+                            <constraint firstItem="spS-rn-oDT" firstAttribute="top" secondItem="L0F-j4-hbb" secondAttribute="bottom" constant="8" symbolic="YES" id="Xt3-uA-uBb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="yPU-lW-iTi"/>
+                    <connections>
+                        <outlet property="backBtn" destination="L0F-j4-hbb" id="th4-QP-I27"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g4h-Pz-3d9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4671" y="268"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="JWV-6N-I3x">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="84u-Vv-EEG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="RMb-vD-FsH" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="7bb-SY-LI3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="R1H-uT-OQk"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="3215" y="268"/>
         </scene>
     </scenes>
 </document>

@@ -15,6 +15,11 @@
 		09523E671CAA5784005BBFC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09523E651CAA5784005BBFC6 /* LaunchScreen.storyboard */; };
 		09523E721CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09523E711CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinalTests.swift */; };
 		09523E7D1CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09523E7C1CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinalUITests.swift */; };
+		09523E8B1CAA57BD005BBFC6 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09523E8A1CAA57BD005BBFC6 /* NextViewController.swift */; };
+		09523E8E1CAA58CD005BBFC6 /* TransitionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09523E8D1CAA58CD005BBFC6 /* TransitionDelegate.swift */; };
+		09523E901CAA58E0005BBFC6 /* AnimationPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09523E8F1CAA58E0005BBFC6 /* AnimationPresent.swift */; };
+		09523E921CAA58EE005BBFC6 /* AnimationDismissed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09523E911CAA58EE005BBFC6 /* AnimationDismissed.swift */; };
+		09D0CE9E1CACFC3B004D665C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D0CE9D1CACFC3B004D665C /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +41,11 @@
 
 /* Begin PBXFileReference section */
 		09523E561CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircularCustomTransitionAnimationFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		09523E591CAA5784005BBFC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		09523E5B1CAA5784005BBFC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09523E591CAA5784005BBFC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = CircularCustomTransitionAnimationFinal/AppDelegate.swift; sourceTree = "<group>"; };
+		09523E5B1CAA5784005BBFC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = CircularCustomTransitionAnimationFinal/ViewController.swift; sourceTree = "<group>"; };
 		09523E5E1CAA5784005BBFC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		09523E611CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CircularCustomTransitionAnimationFinal.xcdatamodel; sourceTree = "<group>"; };
-		09523E631CAA5784005BBFC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09523E631CAA5784005BBFC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = CircularCustomTransitionAnimationFinal/Assets.xcassets; sourceTree = "<group>"; };
 		09523E661CAA5784005BBFC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09523E681CAA5784005BBFC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09523E6D1CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircularCustomTransitionAnimationFinalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +54,11 @@
 		09523E781CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircularCustomTransitionAnimationFinalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09523E7C1CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularCustomTransitionAnimationFinalUITests.swift; sourceTree = "<group>"; };
 		09523E7E1CAA5784005BBFC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09523E8A1CAA57BD005BBFC6 /* NextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NextViewController.swift; path = CircularCustomTransitionAnimationFinal/NextViewController.swift; sourceTree = "<group>"; };
+		09523E8D1CAA58CD005BBFC6 /* TransitionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransitionDelegate.swift; path = CircularCustomTransitionAnimationFinal/TransitionDelegate.swift; sourceTree = "<group>"; };
+		09523E8F1CAA58E0005BBFC6 /* AnimationPresent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationPresent.swift; sourceTree = "<group>"; };
+		09523E911CAA58EE005BBFC6 /* AnimationDismissed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationDismissed.swift; sourceTree = "<group>"; };
+		09D0CE9D1CACFC3B004D665C /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = CircularCustomTransitionAnimationFinal/BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +89,11 @@
 		09523E4D1CAA5784005BBFC6 = {
 			isa = PBXGroup;
 			children = (
+				09D0CEA21CAD2A95004D665C /* Assets */,
+				09D0CEA11CAD2A89004D665C /* AppDelegate */,
+				09D0CEA01CAD2A75004D665C /* ViewControllers */,
+				09D0CE9F1CAD2A6A004D665C /* UI */,
+				09523E8C1CAA58AC005BBFC6 /* TransitionClasses */,
 				09523E581CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinal */,
 				09523E701CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinalTests */,
 				09523E7B1CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinalUITests */,
@@ -99,11 +114,6 @@
 		09523E581CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinal */ = {
 			isa = PBXGroup;
 			children = (
-				09523E591CAA5784005BBFC6 /* AppDelegate.swift */,
-				09523E5B1CAA5784005BBFC6 /* ViewController.swift */,
-				09523E5D1CAA5784005BBFC6 /* Main.storyboard */,
-				09523E631CAA5784005BBFC6 /* Assets.xcassets */,
-				09523E651CAA5784005BBFC6 /* LaunchScreen.storyboard */,
 				09523E681CAA5784005BBFC6 /* Info.plist */,
 				09523E601CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinal.xcdatamodeld */,
 			);
@@ -126,6 +136,51 @@
 				09523E7E1CAA5784005BBFC6 /* Info.plist */,
 			);
 			path = CircularCustomTransitionAnimationFinalUITests;
+			sourceTree = "<group>";
+		};
+		09523E8C1CAA58AC005BBFC6 /* TransitionClasses */ = {
+			isa = PBXGroup;
+			children = (
+				09523E8D1CAA58CD005BBFC6 /* TransitionDelegate.swift */,
+				09523E8F1CAA58E0005BBFC6 /* AnimationPresent.swift */,
+				09523E911CAA58EE005BBFC6 /* AnimationDismissed.swift */,
+			);
+			name = TransitionClasses;
+			sourceTree = "<group>";
+		};
+		09D0CE9F1CAD2A6A004D665C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				09523E5D1CAA5784005BBFC6 /* Main.storyboard */,
+				09523E651CAA5784005BBFC6 /* LaunchScreen.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		09D0CEA01CAD2A75004D665C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				09D0CE9D1CACFC3B004D665C /* BaseViewController.swift */,
+				09523E5B1CAA5784005BBFC6 /* ViewController.swift */,
+				09523E8A1CAA57BD005BBFC6 /* NextViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		09D0CEA11CAD2A89004D665C /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				09523E591CAA5784005BBFC6 /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		09D0CEA21CAD2A95004D665C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				09523E631CAA5784005BBFC6 /* Assets.xcassets */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +315,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				09523E5C1CAA5784005BBFC6 /* ViewController.swift in Sources */,
+				09523E921CAA58EE005BBFC6 /* AnimationDismissed.swift in Sources */,
+				09523E8E1CAA58CD005BBFC6 /* TransitionDelegate.swift in Sources */,
+				09523E8B1CAA57BD005BBFC6 /* NextViewController.swift in Sources */,
 				09523E5A1CAA5784005BBFC6 /* AppDelegate.swift in Sources */,
+				09D0CE9E1CACFC3B004D665C /* BaseViewController.swift in Sources */,
+				09523E901CAA58E0005BBFC6 /* AnimationPresent.swift in Sources */,
 				09523E621CAA5784005BBFC6 /* CircularCustomTransitionAnimationFinal.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +363,7 @@
 				09523E5E1CAA5784005BBFC6 /* Base */,
 			);
 			name = Main.storyboard;
+			path = CircularCustomTransitionAnimationFinal;
 			sourceTree = "<group>";
 		};
 		09523E651CAA5784005BBFC6 /* LaunchScreen.storyboard */ = {
@@ -311,6 +372,7 @@
 				09523E661CAA5784005BBFC6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = CircularCustomTransitionAnimationFinal;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -488,6 +550,7 @@
 				09523E831CAA5784005BBFC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09523E841CAA5784005BBFC6 /* Build configuration list for PBXNativeTarget "CircularCustomTransitionAnimationFinalTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +559,7 @@
 				09523E861CAA5784005BBFC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09523E871CAA5784005BBFC6 /* Build configuration list for PBXNativeTarget "CircularCustomTransitionAnimationFinalUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +568,7 @@
 				09523E891CAA5784005BBFC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

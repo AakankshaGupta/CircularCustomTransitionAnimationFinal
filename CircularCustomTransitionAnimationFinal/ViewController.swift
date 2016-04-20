@@ -8,18 +8,40 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: BaseViewController{
 
-    override func viewDidLoad() {
+    @IBOutlet weak var animateBtn: UIButton!
+    
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.curvedBtn(animateBtn)
+               
     }
 
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(true)
+        
+        
+    }
+  
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
 
-
+    
+    @IBAction func animationStart(sender: AnyObject)
+    {
+       
+    guard let destination = self.storyboard?.instantiateViewControllerWithIdentifier("NextViewController") as? NextViewController else {return}
+        
+        transitionDelegate.openingFrame = animateBtn.frame
+        destination.transitioningDelegate = transitionDelegate
+        destination.modalPresentationStyle = .Custom
+        presentViewController(destination, animated: true, completion: nil)
+    }
+    
 }
 
